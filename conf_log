@@ -1,0 +1,326 @@
+configure: WARNING: If you wanted to set the --build type, don't use --host.
+    If a cross compiler is detected then cross compile mode will be used.
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... arm-unknown-linux-gnu
+checking for arm-linux-gcc... arm-none-linux-gnueabi-gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... yes
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether arm-none-linux-gnueabi-gcc accepts -g... yes
+checking for arm-none-linux-gnueabi-gcc option to accept ISO C89... none needed
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by arm-none-linux-gnueabi-gcc... /usr/local/arm-2010.09/arm-none-linux-gnueabi/bin/ld
+checking if the linker (/usr/local/arm-2010.09/arm-none-linux-gnueabi/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... no
+checking for arm-linux-dumpbin... no
+checking for arm-linux-link... no
+checking for dumpbin... no
+checking for link... link -dump -symbols
+configure: WARNING: In the future, Autoconf will not detect cross-tools
+whose name does not start with the host triplet.  If you think this
+configuration is useful to you, please write to autoconf@gnu.org.
+checking the name lister (link -dump -symbols) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /usr/local/arm-2010.09/arm-none-linux-gnueabi/bin/ld option to reload object files... -r
+checking for arm-linux-objdump... no
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for arm-linux-ar... no
+checking for ar... ar
+checking for arm-linux-strip... no
+checking for strip... strip
+checking for arm-linux-ranlib... no
+checking for ranlib... ranlib
+checking command to parse link -dump -symbols output from arm-none-linux-gnueabi-gcc object... failed
+checking how to run the C preprocessor... arm-none-linux-gnueabi-gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if arm-none-linux-gnueabi-gcc supports -fno-rtti -fno-exceptions... no
+checking for arm-none-linux-gnueabi-gcc option to produce PIC... -fPIC -DPIC
+checking if arm-none-linux-gnueabi-gcc PIC flag -fPIC -DPIC works... yes
+checking if arm-none-linux-gnueabi-gcc static flag -static works... yes
+checking if arm-none-linux-gnueabi-gcc supports -c -o file.o... yes
+checking if arm-none-linux-gnueabi-gcc supports -c -o file.o... (cached) yes
+checking whether the arm-none-linux-gnueabi-gcc linker (/usr/local/arm-2010.09/arm-none-linux-gnueabi/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking whether byte ordering is bigendian... no
+checking for arm-linux-gcc... (cached) arm-none-linux-gnueabi-gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether arm-none-linux-gnueabi-gcc accepts -g... (cached) yes
+checking for arm-none-linux-gnueabi-gcc option to accept ISO C89... (cached) none needed
+checking for arm-linux-g++... no
+checking for arm-linux-c++... no
+checking for arm-linux-gpp... no
+checking for arm-linux-aCC... no
+checking for arm-linux-CC... no
+checking for arm-linux-cxx... no
+checking for arm-linux-cc++... no
+checking for arm-linux-cl.exe... no
+checking for arm-linux-FCC... no
+checking for arm-linux-KCC... no
+checking for arm-linux-RCC... no
+checking for arm-linux-xlC_r... no
+checking for arm-linux-xlC... no
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether g++ accepts -g... (cached) yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/local/arm-2010.09/arm-none-linux-gnueabi/bin/ld
+checking if the linker (/usr/local/arm-2010.09/arm-none-linux-gnueabi/bin/ld) is GNU ld... yes
+checking whether the g++ linker (/usr/local/arm-2010.09/arm-none-linux-gnueabi/bin/ld) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/local/arm-2010.09/arm-none-linux-gnueabi/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether make sets $(MAKE)... yes
+checking for arm-linux-windres... no
+checking for windres... no
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for working volatile... yes
+checking for ANSI C header files... (cached) yes
+checking for sys/types.h... (cached) yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking for stdlib.h... (cached) yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking for memory.h... (cached) yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking for stdint.h... (cached) yes
+checking ctype.h usability... yes
+checking ctype.h presence... yes
+checking for ctype.h... yes
+checking math.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+checking iconv.h usability... yes
+checking iconv.h presence... yes
+checking for iconv.h... yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking for size_t... yes
+checking for int64_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for working memcmp... no
+checking for working strtod... no
+checking for pow... no
+checking for pow in -lm... yes
+checking for mprotect... yes
+checking for malloc... yes
+checking for calloc... yes
+checking for realloc... yes
+checking for free... yes
+checking for getenv... yes
+checking for putenv... yes
+checking for unsetenv... yes
+checking for qsort... yes
+checking for abs... yes
+checking for bcopy... yes
+checking for memset... yes
+checking for memcpy... yes
+checking for memmove... yes
+checking for strlen... yes
+checking for strlcpy... no
+checking for strlcat... no
+checking for strdup... yes
+checking for _strrev... no
+checking for _strupr... no
+checking for _strlwr... no
+checking for strchr... yes
+checking for strrchr... yes
+checking for strstr... yes
+checking for itoa... no
+checking for _ltoa... no
+checking for _uitoa... no
+checking for _ultoa... no
+checking for strtol... yes
+checking for strtoul... yes
+checking for _i64toa... no
+checking for _ui64toa... no
+checking for strtoll... yes
+checking for strtoull... yes
+checking for atoi... yes
+checking for atof... yes
+checking for strcmp... yes
+checking for strncmp... yes
+checking for _stricmp... no
+checking for strcasecmp... yes
+checking for _strnicmp... no
+checking for strncasecmp... yes
+checking for sscanf... yes
+checking for snprintf... yes
+checking for vsnprintf... yes
+checking for iconv... yes
+checking for sigaction... yes
+checking for setjmp... yes
+checking for nanosleep... yes
+checking for libiconv_open in -liconv... no
+checking for pow in -lm... (cached) yes
+checking for struct sigaction.sa_sigaction... yes
+checking for GCC -fvisibility=hidden option... yes
+checking for dlopen... yes
+checking for dlopen in -lc... no
+checking for dlopen in -ldl... yes
+checking for Altivec with GCC altivec.h and -maltivec option... no
+checking for Altivec with GCC -maltivec option... no
+checking for Altivec with GCC altivec.h and -faltivec option... no
+checking for Altivec with GCC -faltivec option... no
+checking for OSS audio support... yes
+checking for dmedia audio support... no
+checking for ALSA CFLAGS... 
+checking for ALSA LDFLAGS...  -lasound -lm -ldl -lpthread
+checking for libasound headers version >= 0.9.0... not present.
+checking for snd_ctl_open in -lasound... no
+checking for pkg-config... /usr/bin/pkg-config
+checking for PulseAudio 0.9 support... no
+checking for framebuffer console support... yes
+checking for getpagesize... yes
+checking for directfb-config... no
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking for DirectFB 0.9.15 support... no
+checking for PlayStation 3 Cell support... no
+checking for SVGAlib (1.4.0+) support... no
+checking for libVGL support... no
+checking for wscons support... no
+checking for Linux 2.4 unified input interface... yes
+checking for Touchscreen library support... no
+checking for hid_init in -lusbhid... no
+checking usb.h usability... no
+checking usb.h presence... no
+checking for usb.h... no
+checking libusb.h usability... no
+checking libusb.h presence... no
+checking for libusb.h... no
+checking for hid_init in -lusb... no
+checking for usbhid... no
+checking for pthreads... yes
+checking for recursive mutexes... yes
+checking for pthread semaphores... yes
+checking for sem_timedwait... yes
+checking linux/version.h usability... yes
+checking linux/version.h presence... yes
+checking for linux/version.h... yes
+checking for GCC -Wall option... yes
+checking for necessary GCC -Wno-multichar option... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating sdl-config
+config.status: creating SDL.spec
+config.status: creating SDL.qpg
+config.status: creating sdl.pc
+config.status: creating include/SDL_config.h
+config.status: executing libtool commands
+config.status: executing default commands
+Generating dependencies for ./src/SDL.c
+Generating dependencies for ./src/SDL_error.c
+Generating dependencies for ./src/SDL_fatal.c
+Generating dependencies for ./src/audio/SDL_audio.c
+Generating dependencies for ./src/audio/SDL_audiocvt.c
+Generating dependencies for ./src/audio/SDL_audiodev.c
+Generating dependencies for ./src/audio/SDL_mixer.c
+Generating dependencies for ./src/audio/SDL_mixer_MMX.c
+Generating dependencies for ./src/audio/SDL_mixer_MMX_VC.c
+Generating dependencies for ./src/audio/SDL_mixer_m68k.c
+Generating dependencies for ./src/audio/SDL_wave.c
+Generating dependencies for ./src/cdrom/SDL_cdrom.c
+Generating dependencies for ./src/cpuinfo/SDL_cpuinfo.c
+Generating dependencies for ./src/events/SDL_active.c
+Generating dependencies for ./src/events/SDL_events.c
+Generating dependencies for ./src/events/SDL_expose.c
+Generating dependencies for ./src/events/SDL_keyboard.c
+Generating dependencies for ./src/events/SDL_mouse.c
+Generating dependencies for ./src/events/SDL_quit.c
+Generating dependencies for ./src/events/SDL_resize.c
+Generating dependencies for ./src/file/SDL_rwops.c
+Generating dependencies for ./src/stdlib/SDL_getenv.c
+Generating dependencies for ./src/stdlib/SDL_iconv.c
+Generating dependencies for ./src/stdlib/SDL_malloc.c
+Generating dependencies for ./src/stdlib/SDL_qsort.c
+Generating dependencies for ./src/stdlib/SDL_stdlib.c
+Generating dependencies for ./src/stdlib/SDL_string.c
+Generating dependencies for ./src/thread/SDL_thread.c
+Generating dependencies for ./src/timer/SDL_timer.c
+Generating dependencies for ./src/video/SDL_RLEaccel.c
+Generating dependencies for ./src/video/SDL_blit.c
+Generating dependencies for ./src/video/SDL_blit_0.c
+Generating dependencies for ./src/video/SDL_blit_1.c
+Generating dependencies for ./src/video/SDL_blit_A.c
+Generating dependencies for ./src/video/SDL_blit_N.c
+Generating dependencies for ./src/video/SDL_bmp.c
+Generating dependencies for ./src/video/SDL_cursor.c
+Generating dependencies for ./src/video/SDL_gamma.c
+Generating dependencies for ./src/video/SDL_pixels.c
+Generating dependencies for ./src/video/SDL_stretch.c
+Generating dependencies for ./src/video/SDL_surface.c
+Generating dependencies for ./src/video/SDL_video.c
+Generating dependencies for ./src/video/SDL_yuv.c
+Generating dependencies for ./src/video/SDL_yuv_mmx.c
+Generating dependencies for ./src/video/SDL_yuv_sw.c
+Generating dependencies for ./src/joystick/SDL_joystick.c
+Generating dependencies for ./src/video/dummy/SDL_nullevents.c
+Generating dependencies for ./src/video/dummy/SDL_nullmouse.c
+Generating dependencies for ./src/video/dummy/SDL_nullvideo.c
+Generating dependencies for ./src/audio/dummy/SDL_dummyaudio.c
+Generating dependencies for ./src/loadso/dlopen/SDL_sysloadso.c
+Generating dependencies for ./src/audio/dsp/SDL_dspaudio.c
+Generating dependencies for ./src/audio/dma/SDL_dmaaudio.c
+Generating dependencies for ./src/video/fbcon/SDL_fb3dfx.c
+Generating dependencies for ./src/video/fbcon/SDL_fbelo.c
+Generating dependencies for ./src/video/fbcon/SDL_fbevents.c
+Generating dependencies for ./src/video/fbcon/SDL_fbmatrox.c
+Generating dependencies for ./src/video/fbcon/SDL_fbmouse.c
+Generating dependencies for ./src/video/fbcon/SDL_fbriva.c
+Generating dependencies for ./src/video/fbcon/SDL_fbvideo.c
+Generating dependencies for ./src/thread/pthread/SDL_systhread.c
+Generating dependencies for ./src/thread/pthread/SDL_syssem.c
+Generating dependencies for ./src/thread/pthread/SDL_sysmutex.c
+Generating dependencies for ./src/thread/pthread/SDL_syscond.c
+Generating dependencies for ./src/joystick/linux/SDL_sysjoystick.c
+Generating dependencies for ./src/timer/unix/SDL_systimer.c
+Generating dependencies for ./src/cdrom/dummy/SDL_syscdrom.c
+Generating dependencies for ./src/main/dummy/SDL_dummy_main.c
